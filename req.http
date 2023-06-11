@@ -1,0 +1,28 @@
+GET http://localhost:3000/user-api/getusers
+
+###
+
+POST http://localhost:3000/user-api/createusers
+Content-Type: application/json
+
+{
+    "username":"",
+    "email":"@gmail.com",
+    "password":""
+}
+
+
+###
+POST http://localhost:3000/details-api/enter-details
+Content-Type: application/json
+
+{
+    "transactionId":"",
+    "internName":"@gmail.com",
+    "causeNo":"",
+    "amount":5000
+}
+
+
+###
+GET http://localhost:3000/admin-api/getdetails
