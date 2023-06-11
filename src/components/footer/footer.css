@@ -1,0 +1,22 @@
+/* Add these styles to your CSS file */
+
+html, body {
+    height: 100%;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color:#9aa1c5;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
